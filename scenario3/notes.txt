@@ -1,0 +1,9 @@
+https://learn.microsoft.com/en-us/azure/app-service/samples-bicep
+
+az login --service-principal -u <app-id> -p <password-or-cert> --tenant <tenant>
+
+az group create -l eastus -n PoC_Zone
+
+az deployment group create --name scenario3 --resource-group PoC_Zone --template-file appservice-linux.bicep --parameters @appservice-linux.parameters.json
+
+az group delete -n PoC_Zone

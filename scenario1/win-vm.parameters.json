@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "adminUsername": {
+        "value": "oadmin"
+      },
+      "adminPassword": {
+        "value": "P@ssw0rd1234"
+      },
+      "vmName": {
+        "value": "oavm001"
+      },
+      "OSVersion": {
+        "value": "2022-datacenter-azure-edition"
+      },
+      "vmSize": {
+        "value": "Standard_D2s_v5"
+      }
+    }
+  }

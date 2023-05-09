@@ -1,0 +1,8 @@
+
+az login --service-principal -u <app-id> -p <password-or-cert> --tenant <tenant>
+
+az group create -l eastus -n PoC_Zone
+
+az deployment group create --name scenario2 --resource-group PoC_Zone --template-file linux-vm.bicep --parameters @linux-vm.parameters.json
+
+az group delete -n PoC_Zone
