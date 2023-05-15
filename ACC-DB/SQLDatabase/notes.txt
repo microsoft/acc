@@ -1,9 +1,11 @@
-https://learn.microsoft.com/en-us/azure/app-service/samples-bicep
+https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.sql
 
 az login --service-principal -u <app-id> -p <password-or-cert> --tenant <tenant>
 
 az group create -l eastus -n PoC_Zone
 
-az deployment group create --name scenario4 --resource-group PoC_Zone --template-file sqldatabase.bicep --parameters @sqldatabase.parameters.json
+az deployment group create --name ACC-DB --resource-group PoC_Zone --template-file sqldatabase.bicep --parameters
+
+az deployment group create --name ACC-DB --resource-group PoC_Zone --template-file sqldatabase.bicep --parameters @sqldatabase.parameters.json
 
 az group delete -n PoC_Zone
