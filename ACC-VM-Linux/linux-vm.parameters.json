@@ -3,19 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "adminUsername": {
-        "value": "oadmin"
+        "value": "GEN-UNIQUE"
       },
       "adminPassword": {
-        "value": "P@ssw0rd1234"
+        "value": "GEN-UNIQUE"
       },
       "vmName": {
-        "value": "oavm001"
+        "value": "GEN-UNIQUE"
       },
-      "OSVersion": {
-        "value": "2022-datacenter-azure-edition"
+      "ubuntuOSVersion": {
+        "value": "Ubuntu-2004"
       },
       "vmSize": {
-        "value": "Standard_D2s_v5"
+        "value": "Standard_D2s_v"
       }
     }
   }

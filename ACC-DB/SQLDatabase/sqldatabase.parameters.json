@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "serverName": {
-        "value": "oasqldb001"
+        "value": "GEN-UNIQUE"
       },
       "administratorLogin": {
-        "value": "oadmin"
+        "value": "GEN-UNIQUE"
       },
       "administratorLoginPassword": {
-        "value": "P@ssw0rd1234"
+        "value": "GEN-UNIQUE"
       }
     }
   }

@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "webAppName": {
-      "value": "oaappservice001"
+      "value": "GEN-UNIQUE"
     },
     "sku": {
       "value": "S2"
