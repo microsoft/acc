@@ -1,4 +1,4 @@
-# Azure Command Center
+# Apps Command Center
 
 ## Contributing
 
