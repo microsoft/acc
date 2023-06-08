@@ -1,4 +1,4 @@
-# Apps Command Center / Enterprise Apps Accelerator
+# Apps Command Center
 
 Developed by the Microsoft GPS LATAM Team, the ACC Solution Accelerator provides a set of templates to help you accelerate your deployment process. The ACC Solution Accelerator is designed to help you build solutions that are secure, scalable, and reliable based on Microsoft WAF Principals.
 
