@@ -1,4 +1,26 @@
-# Apps Command Center
+# Apps Command Center / Enterprise Apps Accelerator
+
+Developed by the Microsoft GPS LATAM Team, the ACC Solution Accelerator provides a set of templates to help you accelerate your deployment process. The ACC Solution Accelerator is designed to help you build solutions that are secure, scalable, and reliable based on Microsoft WAF Principals.
+
+### Make your choice
+
+```mermaid
+flowchart TD
+    A[Start] --> B{Windows OS};
+    B -- Yes --> C{Windows App, does need Access to Console?};
+    B -- No --> D{Linux App, does need Access to Console?};
+    C -- Yes --> E[Enjoy Azure VM for Windows];
+    C -- No --> F{Code in Repo?};
+    D -- Yes --> G[Enjoy Azure VM for Linux];
+    D -- No --> H{Code in Repo?};
+    F -- Yes --> I[Enjoy App Service for Windows]
+    F -- No --> J[Enjoy Azure VM for Windows];
+    H -- No --> K[Enjoy Azure VM for Linux];
+    H -- Yes --> L{Need support Containers?};
+    L -- Yes --> M[Enjoy Azure Container Apps];
+    L -- No --> N[Enjoy App Service for Linux];
+```
+### This solution is open source. You can adapt the templates to create an architecture that meets your needs.
 
 ## Contributing
 
