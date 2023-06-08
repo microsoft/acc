@@ -7,8 +7,8 @@ Developed by the Microsoft GPS LATAM Team, the ACC Solution Accelerator provides
 ```mermaid
 flowchart TD
     A[Start] --> B{Windows OS};
-    B -- Yes --> C{Windows App, does need Access to Console?};
-    B -- No --> D{Linux App, does need Access to Console?};
+    B -- Yes --> C{Does Windows App need console access?};
+    B -- No --> D{Does Linux App need console access?};
     C -- Yes --> E[Enjoy Azure VM for Windows];
     C -- No --> F{Code in Repo?};
     D -- Yes --> G[Enjoy Azure VM for Linux];
@@ -16,7 +16,7 @@ flowchart TD
     F -- Yes --> I[Enjoy App Service for Windows]
     F -- No --> J[Enjoy Azure VM for Windows];
     H -- No --> K[Enjoy Azure VM for Linux];
-    H -- Yes --> L{Need support Containers?};
+    H -- Yes --> L{Do you need to support containers?};
     L -- Yes --> M[Enjoy Azure Container Apps];
     L -- No --> N[Enjoy App Service for Linux];
 ```
